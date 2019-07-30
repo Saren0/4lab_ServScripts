@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Задание 2</title>
+	<link rel="stylesheet" href="css/app-style.css">
+</head>
+<body>
+	<h1>Задать температуру.<br>Если она меньше нуля, 
+		вывести значение температуры синим цветом,<br>
+		если больше, то красным.</h1><hr>
+	<a href="index.jsp" title="На главную">На главную</a><br>
+	<form action="Task2Controller" method="GET" accept-charset="utf-8">
+		<div>
+			<label for="task2Temperature">Температура:</label>
+			<input type="text" name="temperature" id="task2Temperature" 
+				placeholder="Температура" value="36.6" required/>
+		</div>
+		<div>
+			<input type="submit" value="Submit" />
+		</div>
+	</form>
+</body>
+</html>

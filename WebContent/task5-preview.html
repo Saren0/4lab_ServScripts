@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Задание 5</title>
+	<link rel="stylesheet" href="css/app-style.css">
+</head>
+<body>
+	<h1>Выбор изображения по тематике (природа, автомобили, дети и т.д.)<br>
+		и его отображение.</h1><hr>
+	<a href="index.jsp" title="На главную">На главную</a><br>
+	<form action="Task5Controller" method="GET" accept-charset="utf-8">
+		<div>
+			<label for="idTheme">Выберите тематику изображения:</label>
+			<select id="idTheme" name="theme" required="required">
+				<option value="kids" selected="selected">Дети</option>
+				<option value="cars">Автомобили</option>
+				<option value="nature">Природа</option>
+				<option value="unknown">Непознанное</option>
+			</select>
+		</div>
+		<div>
+			<input type="submit" value="Submit" />
+		</div>
+	</form>
+</body>
+</html>
